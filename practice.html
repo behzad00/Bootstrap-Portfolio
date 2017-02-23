@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap-Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Behzad</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+            <h1>Contact</h1>
+                <form>
+                    <div class="form-group">
+                        <!-- Name field -->
+                        <label class="control-label " for="name" placeholder="John Smith" required="required">Name</label>
+                        <input class="form-control" id="name" name="name" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <!-- Email field -->
+                        <label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
+                        <input class="form-control" id="email" name="email" type="text" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <!-- Message field -->
+                        <label class="control-label " for="message">Message</label>
+                        <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                    </div>
+                </form>
+                
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div id="connect">
+                            <h2>Connect with Me</h2>
+                            <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+                            <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+                            <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+                        </div>
+                        </section>
+                    </div>
+                    <div class="panel-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="panel panel-default">
+                    <div class="panel-footer">
+                        <footer>
+                            <div class="container">
+                                Copyright &copy; 2016 Your Name
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
